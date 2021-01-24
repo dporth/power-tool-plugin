@@ -1,0 +1,10 @@
+ name: PowerToolPlugin
+ version: 1.0
+ author: dporth
+ main: io.github.dporth.powertoolplugin.Main
+ description: Power tool item provisioning plugin.
+
+ commands:
+   powertool:
+     aliases: [powertool <tool name>]
+     description: This is the command to create the power tool of choice. Current power tools are, fishing rod, axe, pickaxe, and shovel.
